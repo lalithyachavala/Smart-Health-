@@ -1,0 +1,136 @@
+/* Dark Gradient Background */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1e1e2f, #151521);
+  color: #ddd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Container with translucent dark background */
+.container {
+  max-width: 520px;
+  margin: 60px auto 40px auto;
+  background: rgba(30, 30, 45, 0.85);
+  padding: 40px 45px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 35px;
+  color: #76e2f7; /* light cyan */
+  font-weight: 700;
+  font-size: 2.6rem;
+  letter-spacing: 1.1px;
+  text-shadow: 0 0 10px #44c2ff88;
+}
+
+/* Inputs */
+form input {
+  width: 100%;
+  margin: 14px 0;
+  padding: 16px 18px;
+  font-size: 17px;
+  border: 2px solid #444c56;
+  border-radius: 12px;
+  background-color: #2a2d3f;
+  color: #cdd9e5;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input::placeholder {
+  color: #768390;
+}
+
+form input:focus {
+  border-color: #4fd1c5; /* teal */
+  outline: none;
+  box-shadow: 0 0 8px #4fd1c5aa;
+  background-color: #394151;
+  color: #e6f1ff;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 16px;
+  background: #4fd1c5;
+  border: none;
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 24px;
+  box-shadow: 0 5px 15px #4fd1c5bb;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background: #38b2ac;
+  box-shadow: 0 6px 18px #38b2accc;
+}
+
+/* Prediction Result */
+.result {
+  margin-top: 32px;
+  font-weight: 700;
+  color: #9fef00; /* neon green */
+  font-size: 1.5rem;
+  user-select: none;
+  text-shadow: 0 0 12px #9fef00cc;
+}
+
+/* Footer */
+footer {
+  background: #12131a;
+  color: #7a8ba6;
+  padding: 30px 20px 20px 20px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  box-shadow: inset 0 1px 5px #4fd1c511;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1 1 300px;
+  margin: 10px 25px;
+}
+
+.footer-section h3 {
+  margin-bottom: 14px;
+  font-weight: 700;
+  color: #4fd1c5;
+  text-shadow: 0 0 4px #4fd1c5cc;
+}
+
+.footer-section p {
+  line-height: 1.7;
+  margin: 6px 0;
+  color: #a0aec0;
+  text-shadow: 0 0 2px #000000bb;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 24px;
+  color: #5a6a85;
+  font-size: 0.85rem;
+  text-shadow: none;
+}
+
+
